@@ -36,9 +36,9 @@
     </el-table>
   <el-button type="primary" ref='btn1' @click="doLog()" plain>stop load</el-button>
   <el-table height="400px" ref="table2" :data="logData">
-    <el-table-column prop="date" label="日期" width="180"> </el-table-column>
-    <el-table-column prop="name" label="姓名" width="180"> </el-table-column>
-    <el-table-column prop="address" label="地址"> </el-table-column>
+    <el-table-column prop="date" label="日志级别" width="180"> </el-table-column>
+    <el-table-column prop="name" label="进程名" width="180"> </el-table-column>
+    <el-table-column prop="address" label="日志"> </el-table-column>
     </el-table>
   </div>
 </template>

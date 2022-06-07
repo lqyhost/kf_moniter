@@ -6,7 +6,7 @@
           <el-row class="menu-row">
             <el-col :span="24">
               <div >
-                <a href="/" class="brand"><strong>kungfu</strong>交易监控系统</a>
+                <a href="/" class="brand"><strong>kf</strong>监控系统</a>
               </div>
               <el-menu
                 default-active="1"

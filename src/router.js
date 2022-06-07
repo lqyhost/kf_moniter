@@ -33,7 +33,6 @@ export default new Router({
             children:[
                 { path: '/strategy_moniter', name:"strategy_moniter", component:StrategyMoniter},
                 { path: '/account_moniter', name:"account_moniter", component:AccountMoniter},
-                // { path: '/system_manager', name:"system_manager", component:SystemManager},
                 {
                     path: '/system_manager', 
                     name:"system_manager", 
